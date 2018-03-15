@@ -1,7 +1,7 @@
 language: cpp
 compiler: gcc
 before_script:
-  - sudo apt-get install libboost-test-dev -y
+  - sudo apt-get install libboost-test-dev doxygen -y
   - echo "deb http://archive.ubuntu.com/ubuntu xenial main universe" | sudo tee -a /etc/apt/sources.list
   - sudo apt-get update -qq
 script:
