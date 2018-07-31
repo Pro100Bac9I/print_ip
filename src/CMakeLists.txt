@@ -14,3 +14,5 @@ set_target_properties(
     CXX_STANDARD_REQUIRED ON
     COMPILE_OPTIONS -Wpedantic -Wall -Wextra
 )
+
+install(TARGETS print_ip RUNTIME DESTINATION bin)
